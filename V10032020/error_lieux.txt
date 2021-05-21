@@ -1,0 +1,172 @@
+Got Last Page = 16
+New File created
+Opening an existing sheet named = xlsx_files/extapec_100320.xlsx
+main was having 0 rows previously.
+compétences was having 0 rows previously.
+lang was having 0 rows previously.
+atouts was having 0 rows previously.
+nb_moments_cles was having 0 rows previously.
+no proxy applied
+load_page(url=https://www.apec.fr/recruteur/mon-espace/candidapec.html#/rechercheNormale?page=%s, do_handle_login=False, wait_ele_xpath=, ele_count=1, refresh_also=True, count_visit=False)
+checking connection
+Connected
+loading start
+loading complete
+Clicking //button[@class='optanon-allow-all accept-cookies-button']
+Clicking Complete
+load_page(url=https://www.apec.fr/recruteur/mon-espace/candidapec.html#/rechercheNormale?page=16&fonctions=101828&lieux=91&secteursActivite=101753, do_handle_login=True, wait_ele_xpath=//a[@class='actualLink' and contains(@href,'/detailProfil/')], ele_count=20, refresh_also=True, count_visit=False)
+checking connection
+Connected
+loading start
+loading complete
+Opening an existing sheet named = usernames.xlsx
+login with:
+            username_node = document.querySelector("#emailid");
+            if(username_node.offsetParent === null)
+                return false;
+            else
+            {
+                password_node = document.querySelector("#password");
+                username_node.value = '100160016W';
+                password_node.value = 'Abcfinance*20';
+                document.querySelector("#popin-connexion > div > div:nth-child(2) > div > form > button").click();
+                return true;
+            }
+
+Login success
+Waiting for //a[@class='actualLink' and contains(@href,'/detailProfil/')], iteration = 0
+Elements found
+Total candidates on this page are: 20
+next_page_script result: True
+next_page_script result: True
+is_next_exists = True
+0: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/3005001?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+1: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/1275178?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+2: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/612119?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+3: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2968003?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+4: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/3005420?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+5: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/3004685?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+6: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2971265?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+7: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2959044?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+8: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2819866?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+9: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/850416?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+10: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/3004971?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+11: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2240694?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+12: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2918986?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+13: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/287615?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+14: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2277505?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+15: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2987538?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+16: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/1979428?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+17: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2975016?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+18: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2930631?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+19: Candidate link: https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/3003689?page=16&fonctions=101828&lieux=91&secteursActivite=101753
+Total candidates on page_num = 16 are 20
+1 url
+Checking if profile id: 3005001 exists?
+profile exists.
+Skipping profile 3005001 as it is already in DB
+2 url
+Checking if profile id: 1275178 exists?
+profile exists.
+Skipping profile 1275178 as it is already in DB
+3 url
+Checking if profile id: 612119 exists?
+profile exists.
+Skipping profile 612119 as it is already in DB
+4 url
+Checking if profile id: 2968003 exists?
+profile exists.
+Skipping profile 2968003 as it is already in DB
+5 url
+Checking if profile id: 3005420 exists?
+profile exists.
+Skipping profile 3005420 as it is already in DB
+6 url
+Checking if profile id: 3004685 exists?
+profile exists.
+Skipping profile 3004685 as it is already in DB
+7 url
+Checking if profile id: 2971265 exists?
+profile exists.
+Skipping profile 2971265 as it is already in DB
+8 url
+Checking if profile id: 2959044 exists?
+profile exists.
+Skipping profile 2959044 as it is already in DB
+9 url
+Checking if profile id: 2819866 exists?
+profile exists.
+Skipping profile 2819866 as it is already in DB
+10 url
+Checking if profile id: 850416 exists?
+profile exists.
+Skipping profile 850416 as it is already in DB
+11 url
+Checking if profile id: 3004971 exists?
+profile exists.
+Skipping profile 3004971 as it is already in DB
+12 url
+Checking if profile id: 2240694 exists?
+profile exists.
+Skipping profile 2240694 as it is already in DB
+13 url
+Checking if profile id: 2918986 exists?
+profile not exists
+load_page(url=https://www.apec.fr/recruteur/mon-espace/candidapec.html#/detailProfil/2918986?page=16&fonctions=101828&lieux=91&secteursActivite=101753, do_handle_login=True, wait_ele_xpath=//*[contains(@id,'photo-profil') or @id='portrait-anonyme' ]/img, ele_count=1, refresh_also=True, count_visit=True)
+checking connection
+Connected
+loading start
+loading complete
+Opening an existing sheet named = usernames.xlsx
+(2020-03-09 23:40:59.751321 + 1 day, 0:00:00) - 2020-03-10 10:56:53.753118= 12:44:05.998248
+Username = 100160016W    pass = Abcfinance*20    total visits = 4
+login with:
+            username_node = document.querySelector("#emailid");
+            if(username_node.offsetParent === null)
+                return false;
+            else
+            {
+                password_node = document.querySelector("#password");
+                username_node.value = '100160016W';
+                password_node.value = 'Abcfinance*20';
+                document.querySelector("#popin-connexion > div > div:nth-child(2) > div > form > button").click();
+                return true;
+            }
+
+Waiting for //*[contains(@id,'photo-profil') or @id='portrait-anonyme' ]/img, iteration = 0
+Elements found
+Clicking //*[contains(@class,'condonnee-profil')]/button
+Clicking Complete
+Clicking //button[contains(text(),'Autres actions')]
+Clicking Complete
+load_page(url=https://www.apec.fr/telechargement-de-fichier.download.do?type=cvAndProfil&filename=Profil%20et%20CV%20de%20J%C3%A9r%C3%B4me%20BO%C3%8BLY%2010-03-2020.zip&id=2918986, do_handle_login=True, wait_ele_xpath=, ele_count=1, refresh_also=False, count_visit=False)
+checking connection
+Connected
+loading start
+loading complete
+Opening an existing sheet named = usernames.xlsx
+login with:
+            username_node = document.querySelector("#emailid");
+            if(username_node.offsetParent === null)
+                return false;
+            else
+            {
+                password_node = document.querySelector("#password");
+                username_node.value = '100160016W';
+                password_node.value = 'Abcfinance*20';
+                document.querySelector("#popin-connexion > div > div:nth-child(2) > div > form > button").click();
+                return true;
+            }
+
+Traceback (most recent call last):
+  File "main.py", line 133, in <module>
+    """var nodes = document.evaluate("//*[contains(text(),'Lieux :')]/parent::*/following-sibling::*", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null ).singleNodeValue.children;str = "";for( i = 0;i<nodes.length;i++){str += nodes[i].innerText +";";}return str;"""))  # Lieux
+  File "/home/iao/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 636, in execute_script
+    'args': converted_args})['value']
+  File "/home/iao/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/iao/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Cannot read property 'children' of null
+  (Session info: headless chrome=80.0.3987.87)
+  (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 5.0.0-32-generic x86_64)
